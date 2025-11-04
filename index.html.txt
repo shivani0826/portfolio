@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivani Reddy Vajrala | DevOps Engineer | AWS Cloud</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm <span class="name">Shivani Reddy Vajrala</span></h1>
+    <h2>DevOps Engineer | Cloud (AWS, Terraform, Docker, CI/CD, Shell Scripting)</h2>
+  </header>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p>
+      I’m a DevOps Engineer experienced in designing, automating, and managing cloud infrastructure.
+      I specialize in AWS Cloud, CI/CD pipelines, and infrastructure automation using Terraform and Shell scripting.
+      My goal is to ensure seamless deployment workflows and optimized cloud environments.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h3>Technical Skills</h3>
+    <ul>
+      <li><strong>Cloud Platforms:</strong> AWS (EC2, S3, VPC, IAM, Route 53, CloudWatch)</li>
+      <li><strong>Infrastructure as Code:</strong> Terraform, AWS CloudFormation</li>
+      <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions, GitLab CI</li>
+      <li><strong>Containerization:</strong> Docker, Kubernetes (EKS)</li>
+      <li><strong>Scripting:</strong> Shell Scripting, PowerShell</li>
+      <li><strong>Networking:</strong> Route 53 DNS, Load Balancers, Security Groups, SSL</li>
+      <li><strong>Version Control:</strong> Git, GitHub</li>
+      <li><strong>Monitoring & Logging:</strong> CloudWatch, Prometheus, Grafana</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+
+    <div class="project">
+      <h4>1️⃣ AWS Infrastructure Automation with Terraform</h4>
+      <p>
+        Designed and deployed AWS infrastructure using Terraform and Shell scripts.
+        Configured EC2 instances, S3 buckets, and Route 53 DNS records for custom domains.
+        Implemented CI/CD pipelines via Jenkins and GitHub Actions for automated deployments.
+      </p>
+    </div>
+
+    <div class="project">
+      <h4>2️⃣ Static Website Hosting on AWS S3 + Route 53</h4>
+      <p>
+        Hosted a static portfolio website using Amazon S3 with public access.
+        Managed DNS routing through Route 53, linking the domain <strong>shie.shop</strong> to S3 using custom A and CNAME records.
+        Added HTTPS support using ACM and CloudFront distribution.
+      </p>
+    </div>
+
+    <div class="project">
+      <h4>3️⃣ Shell Script–Driven CI/CD Workflow</h4>
+      <p>
+        Automated build, test, and deployment steps using Shell scripts integrated within Jenkins pipelines.
+        Scripts handled artifact packaging, container image creation, and push to ECR for ECS deployments.
+      </p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:shivanivajrala@example.com">shivanivajrala@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/shivanivajrala" target="_blank">linkedin.com/in/shivanivajrala</a></p>
+    <p>GitHub: <a href="https://github.com/shivanivajrala" target="_blank">github.com/shivanivajrala</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Shivani Reddy Vajrala | DevOps Engineer | AWS Cloud & Automation</p>
+  </footer>
+
+</body>
+</html>
