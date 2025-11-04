@@ -14,7 +14,7 @@ header {
 }
 
 header .name {
-  color: #facc15; /* Yellow accent */
+  color: #facc15; /* yellow accent */
 }
 
 h1, h2, h3 {
@@ -49,6 +49,19 @@ ul li {
   border-radius: 6px;
 }
 
+.project {
+  background: #fdfcf3;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+.project h4 {
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
 a {
   color: #2563eb;
   text-decoration: none;
@@ -69,5 +82,3 @@ footer {
 footer p {
   margin: 0;
 }
-
-
