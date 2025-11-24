@@ -1,38 +1,26 @@
-/* ---------- GLOBAL ---------- */
+/* Clean professional font */
 body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  background-color: #f1f5f9;
-  color: #333;
-  line-height: 1.6;
-}
-
-h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5f7fb;
+  color: #2d2d2d;
 }
 
-/* ---------- NAVBAR ---------- */
+/* NAVBAR */
 .navbar {
-  background: #0d1b4c;
-  padding: 15px 0;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-}
-
-.nav-container {
-  width: 90%;
-  margin: auto;
+  background: #0d1b2a;
+  padding: 18px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
   color: #facc15;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -42,99 +30,72 @@ h1, h2, h3, h4 {
   gap: 25px;
 }
 
-.nav-links li a {
+.nav-links a {
   color: white;
+  font-weight: 400;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 500;
-  transition: 0.3s;
 }
 
-.nav-links li a:hover {
+.nav-links a:hover {
   color: #facc15;
 }
 
-/* ---------- HEADER ---------- */
-header {
-  background: linear-gradient(135deg, #003893, #0059d6);
+/* HERO SECTION */
+.hero {
+  background: #0d47a1;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
 
-header .name {
+.hero .name {
   color: #facc15;
 }
 
-/* ---------- SECTIONS ---------- */
+/* MAIN SECTIONS */
 section {
   max-width: 900px;
   margin: 40px auto;
   padding: 30px;
   background: white;
   border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: 0.3s ease;
-}
-
-section:hover {
-  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
 }
 
 section h3 {
-  color: #003893;
-  border-bottom: 3px solid #facc15;
-  padding-bottom: 6px;
-  margin-bottom: 18px;
-}
-
-/* ---------- LISTS ---------- */
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  background: #fff9d8;
-  padding: 10px;
-  margin: 8px 0;
-  border-radius: 6px;
-  font-size: 15px;
-}
-
-/* ---------- PROJECT CARD ---------- */
-.project {
-  background: #f6f9ff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-}
-
-.project h4 {
-  color: #003893;
-}
-
-.project h5 {
-  margin-top: 15px;
-  color: #003893;
+  border-left: 5px solid #facc15;
+  padding-left: 10px;
   font-weight: 600;
 }
 
-/* ---------- LINKS ---------- */
+/* LIST STYLE */
+ul li {
+  background: #fff8cf;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* PROJECT CARD */
+.project {
+  background: #f8faff;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #4f8ff7;
+}
+
+/* LINKS */
 a {
-  color: #0054d1;
+  color: #1e40af;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 footer {
-  background: #0d1b4c;
-  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
+  background: #0d1b2a;
+  color: white;
   margin-top: 40px;
 }
