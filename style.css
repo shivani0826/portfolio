@@ -1,67 +1,80 @@
-/* Global */
+/* ---------- GLOBAL ---------- */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
-  background-color: #f4f8ff;  /* light professional blue */
+  background-color: #f1f5f9;
   color: #333;
   line-height: 1.6;
 }
 
-/* Header */
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background: #0d1b4c;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #facc15;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #facc15;
+}
+
+/* ---------- HEADER ---------- */
 header {
-  background: linear-gradient(135deg, #1e66ff, #003c8f); 
-  color: #ffffff;
+  background: linear-gradient(135deg, #003893, #0059d6);
+  color: white;
   text-align: center;
-  padding: 70px 20px;
-  border-radius: 0 0 20px 20px;
+  padding: 80px 20px;
 }
 
 header .name {
-  color: #dce8ff; /* light blue highlight */
+  color: #facc15;
 }
 
-h1, h2, h3 {
-  margin: 0;
-}
-
-/* Navbar */
-.navbar {
-  background: #003c8f;
-  padding: 15px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.navbar a:hover {
-  color: #a8c6ff;
-}
-
-/* Sections */
+/* ---------- SECTIONS ---------- */
 section {
   max-width: 900px;
   margin: 40px auto;
   padding: 30px;
-  background: #ffffff;
+  background: white;
   border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
 }
 
 section:hover {
@@ -69,83 +82,59 @@ section:hover {
 }
 
 section h3 {
-  color: #003c8f;
-  border-bottom: 3px solid #1e66ff;
-  padding-bottom: 8px;
-  margin-bottom: 20px;
+  color: #003893;
+  border-bottom: 3px solid #facc15;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
 }
 
-/* Skills List */
+/* ---------- LISTS ---------- */
 ul {
   list-style: none;
   padding: 0;
 }
 
 ul li {
-  background: #e8f0ff;
+  background: #fff9d8;
+  padding: 10px;
   margin: 8px 0;
-  padding: 12px;
   border-radius: 6px;
-  font-weight: 500;
-  border-left: 5px solid #1e66ff;
+  font-size: 15px;
 }
 
-/* Project Cards */
+/* ---------- PROJECT CARD ---------- */
 .project {
-  background: #ffffff;
+  background: #f6f9ff;
   padding: 25px;
-  border-radius: 14px;
-  margin-top: 20px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  border-left: 6px solid #1e66ff;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.project:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
 }
 
 .project h4 {
-  color: #003c8f;
-  margin-bottom: 10px;
-  font-size: 22px;
+  color: #003893;
 }
 
 .project h5 {
-  margin-top: 18px;
-  color: #003c8f;
+  margin-top: 15px;
+  color: #003893;
   font-weight: 600;
 }
 
-/* Buttons */
-.btn {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 20px;
-  background-color: #1e66ff;
-  color: white;
-  border-radius: 6px;
+/* ---------- LINKS ---------- */
+a {
+  color: #0054d1;
   text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
 }
 
-.btn:hover {
-  background-color: #003c8f;
+a:hover {
+  text-decoration: underline;
 }
 
-/* Footer */
+/* ---------- FOOTER ---------- */
 footer {
-  text-align: center;
-  padding: 25px;
-  background-color: #003c8f;
+  background: #0d1b4c;
   color: white;
+  text-align: center;
+  padding: 20px;
   margin-top: 40px;
-  font-size: 0.95em;
-  border-radius: 20px 20px 0 0;
-}
-
-footer p {
-  margin: 0;
 }
