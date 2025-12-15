@@ -1,97 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shivani Reddy Vajrala | DevOps Engineer</title>
-  <link rel="stylesheet" href="style.css">
+<section id="projects">
+  <h3>Projects</h3>
 
-  <!-- Google Font: Poppins (clean, modern, professional) -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">Shivani Reddy</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- HERO SECTION -->
-  <header class="hero">
-    <h1>Hi, I'm <span class="name">Shivani Reddy Vajrala</span></h1>
-    <h2>DevOps Engineer | AWS | Jenkins | Docker | CI/CD | Cloud Automation</h2>
-  </header>
-
-  <section id="about">
-    <h3>About Me</h3>
+  <!-- PROJECT 1 -->
+  <div class="project">
+    <h4>📝 Flask To-Do Application (Docker + AWS EC2 Deployment)</h4>
     <p>
-      I am a <strong>DevOps Engineer</strong> with a passion for automation, containerization, and CI/CD pipeline development.
-      I specialize in integrating modern DevOps tools like <strong>Jenkins</strong> and <strong>Docker</strong> to streamline deployment workflows,
-      enhance scalability, and ensure reliable and efficient software delivery.
+      Designed and deployed a <strong>Flask To-Do Web Application</strong>, fully containerized using Docker and hosted on AWS EC2.
     </p>
-  </section>
 
-  <section id="skills">
-    <h3>Technical Skills</h3>
+    <h5>🧰 Tools Used:</h5>
     <ul>
-      <li><strong>DevOps Tools:</strong> Jenkins, Docker, GitHub Actions</li>
-      <li><strong>Cloud Platforms:</strong> AWS (EC2, IAM, S3, Route 53)</li>
-      <li><strong>Infrastructure:</strong> Linux, Nginx, Shell Scripting</li>
-      <li><strong>Version Control:</strong> Git, GitHub</li>
-      <li><strong>CI/CD:</strong> Jenkins Pipelines, Automated Docker Builds</li>
-      <li><strong>Monitoring:</strong> CloudWatch (AWS)</li>
+      <li>Python, Flask</li>
+      <li>Docker, Docker Hub</li>
+      <li>AWS EC2</li>
+      <li>Git & GitHub</li>
     </ul>
-  </section>
 
-  <section id="projects">
-    <h3>Projects</h3>
+    <p><strong>🌐 Live Demo:</strong> 
+      <a href="http://3.80.86.115:5000" target="_blank">Click here</a>
+    </p>
+    <p><strong>📁 GitHub Repo:</strong> 
+      <a href="https://github.com/shivani0826/todo-app" target="_blank">todo-app</a>
+    </p>
+  </div>
 
-    <div class="project">
-      <h4>📝 Flask To-Do Application (Docker + AWS EC2 Deployment)</h4>
-      <p>
-        Designed and deployed a <strong>Flask To-Do Web Application</strong>, fully containerized using Docker and hosted on AWS EC2.
-      </p>
+  <br>
 
-      <h5>🧰 Tools Used:</h5>
-      <ul>
-        <li>Python, Flask</li>
-        <li>Docker, Docker Hub</li>
-        <li>AWS EC2</li>
-        <li>Git & GitHub</li>
-      </ul>
+  <!-- PROJECT 2 -->
+  <div class="project">
+    <h4>🚀 AWS Infrastructure Automation using Terraform (EC2 + Apache)</h4>
 
-      <p><strong>🌐 Live Demo:</strong> <a href="http://3.80.86.115:5000" target="_blank">Click here</a></p>
-      <p><strong>📁 GitHub Repo:</strong> <a href="https://github.com/shivani0826/todo-app">todo-app</a></p>
-    </div>
+    <p>
+      Built a complete <strong>AWS infrastructure from scratch using Terraform</strong>, provisioning
+      a custom VPC, subnet, routing, security groups, EC2 instance, and deploying an Apache web server
+      automatically using <strong>user data</strong>.
+    </p>
 
-  </section>
-
-  <section id="certifications">
-    <h3>Certifications</h3>
+    <h5>🧰 Tools & Services Used:</h5>
     <ul>
-      <li>✅ AWS Certified Cloud Practitioner</li>
-      <li>✅ Docker & Kubernetes for DevOps Engineers</li>
-      <li>✅ Jenkins CI/CD Pipeline Masterclass</li>
+      <li>Terraform (Infrastructure as Code)</li>
+      <li>AWS EC2, VPC, Subnets</li>
+      <li>Internet Gateway & Route Tables</li>
+      <li>Security Groups</li>
+      <li>Elastic IP</li>
+      <li>Apache HTTP Server</li>
     </ul>
-  </section>
 
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:shivanireddyvajralaa@gmail.com">shivanireddyvajralaa@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/shivani-reddy-vajrala" target="_blank">Shivani Reddy Vajrala</a></p>
-    <p>GitHub: <a href="https://github.com/shivani0826" target="_blank">github.com/shivani0826</a></p>
-  </section>
+    <h5>⚙️ Key Features:</h5>
+    <ul>
+      <li>Created custom VPC with public subnet</li>
+      <li>Configured Internet Gateway and route tables</li>
+      <li>Attached Elastic IP to EC2 via network interface</li>
+      <li>Automated Apache installation using Terraform user data</li>
+      <li>Hosted a public web page accessible via EC2 public IP</li>
+    </ul>
 
-  <footer>
-    © 2025 Shivani Reddy Vajrala | DevOps Engineer
-  </footer>
+    <p><strong>🌐 Live Output:</strong> 
+      <a href="http://34.194.235.80" target="_blank">View Web Server</a>
+    </p>
 
-</body>
-</html>
+    <p><strong>📁 GitHub Repo:</strong> 
+      <a href="https://github.com/shivani0826/terraform-ec2-apache" target="_blank">
+        terraform-ec2-apache
+      </a>
+    </p>
+  </div>
+
+</section>
